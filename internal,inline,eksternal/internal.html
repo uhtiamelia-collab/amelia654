@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Pertama Amelia - Internal CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ef8bcc;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      background-color: #fff;
+      text-align: center;
+      padding: 10px;
+      border-bottom: 2px solid #ccc;
+    }
+
+    .header h2 {
+      color: #cf44a0;
+    }
+
+    .nav {
+      background-color: #f7aadc;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .nav a:nth-child(1) { /* Home */
+      color: rgb(244, 221, 237);
+    }
+
+    .nav a:nth-child(2) { /* Berita */
+      color: rgb(233, 211, 226);
+    }
+
+    .nav a:nth-child(3) { /* Tentang Kami */
+      color: rgb(237, 199, 225);
+    }
+
+    .banner {
+      text-align: center;
+      background-color: #ecaad7;
+      padding: 10px;
+    }
+
+    .banner img {
+      width: 100%;
+    }
+
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+    }
+
+    .content {
+      width: 50%;
+      background-color: #fff;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .content h3 {
+      color: #fb99e6;
+    }
+
+    .content p {
+      color: #d69393;
+    }
+
+    .sidebar {
+      width: 50%;
+      background-color: #fff;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .sidebar h3 {
+      color: #d862b5;
+    }
+
+    .sidebar p {
+      color: #e783bf;
+    }
+
+    .footer {
+      background-color: #cde1ff;
+      text-align: center;
+      padding: 10px;
+      border-top: 2px solid #ccc;
+    }
+
+    .footer p {
+      color: #f09ece;
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h2>WEBSITE PERTAMA SAYA</h2>
+  </header>
+
+  <nav class="nav">
+    <a href="#">Home</a>
+    <a href="#">Berita</a>
+    <a href="#">Tentang Kami</a>
+  </nav>
+
+  <div class="banner">
+    <img src="gambarya.jpg" alt="banner"> 
+  </div>
+  <div class="main-content">
+    <div class="content">
+      <h3>Content</h3>
+      <p>"ini websiteku berisi tentang keindahan alam".</p>
+    </div>
+
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <p>haii aku amelia suasana alam itu sungguh menenangkan bagiku.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Copyright by Nama: Uhti Amelia| 12345678910</p>
+  </footer>
+</body>
+</html>
