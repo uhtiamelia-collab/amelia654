@@ -1,0 +1,98 @@
+  /* Mengatur style dasar untuk body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ef8bcc;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style untuk header */
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+header h2 {
+  color: #cf44a0;
+}
+
+/* Style untuk navigasi */
+nav {
+  background-color: #cde1ff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Style umum untuk link di navigasi */
+nav a {
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+/* Style warna spesifik untuk tiap link (sesuai kode asli Anda) */
+nav a:nth-child(1) {
+  color: rgb(215, 137, 191);
+}
+nav a:nth-child(2) {
+  color: rgb(249, 149, 217);
+}
+nav a:nth-child(3) {
+  color: rgb(233, 134, 202);
+}
+
+/* Style untuk div banner */
+.banner {
+  text-align: center;
+  background-color: #ecaad7;
+  padding: 10px;
+}
+
+.banner img {
+  width: 80%;
+}
+
+/* Style untuk container utama (yang menampung content & sidebar) */
+#main-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+/* Style umum untuk "content" dan "sidebar" (karena mirip) */
+.box {
+  width: 50%;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Style unik untuk teks di dalam #content */
+#content h3 {
+  color: #fb99e6;
+}
+#content p {
+  color: #d69393;
+}
+
+/* Style unik untuk teks di dalam #sidebar */
+#sidebar h3 {
+  color: #d862b5;
+}
+#sidebar p {
+  color: #e783bf;
+}
+
+/* Style untuk footer */
+footer {
+  background-color: #cde1ff;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+}
+
+footer p {
+  color: #f09ece;
+}
